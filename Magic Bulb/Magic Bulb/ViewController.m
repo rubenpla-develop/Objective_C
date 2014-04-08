@@ -15,6 +15,7 @@
 @implementation ViewController
 @synthesize bulb;
 @synthesize slide_bulb;
+@synthesize lblBulb;
 
 - (void)viewDidLoad
 {
@@ -34,14 +35,17 @@
     
     if (interruptor.on) {
         bulb.hidden = YES;
+        lblBulb.text = @"Bulb ON";
+        
     } else {
         bulb.hidden = NO;
+        lblBulb.text = @"Bulb OFF";
     }
     
 }
 - (IBAction)slide_bulb:(id)sender {
     
-    UISwitch * interruptor = sender;
+    //UISwitch * interruptor = sender;
     
     //slide_bulb value is given to bulb image  alpha property.
     

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A473370C-E625-48D4-9164-3A187C1D64C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuoteGen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9CF505C-C559-43E6-A1C0-4AB251835ECF</key>
+		<string>https://github.com/rubenpla-develop/Objective_C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuoteGen/QuoteGen.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9CF505C-C559-43E6-A1C0-4AB251835ECF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rubenpla-develop/Objective_C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9CF505C-C559-43E6-A1C0-4AB251835ECF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9CF505C-C559-43E6-A1C0-4AB251835ECF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Objective_C</string>
+		</dict>
+	</array>
+</dict>
+</plist>

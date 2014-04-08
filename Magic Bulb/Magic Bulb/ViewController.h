@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblBulb;
+
 @property (strong, nonatomic) IBOutlet UIImageView *bulb;
 
 - (IBAction)turn_on:(id)sender;
