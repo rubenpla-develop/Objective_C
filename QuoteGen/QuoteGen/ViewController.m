@@ -36,6 +36,17 @@
 
 - (IBAction)Button:(id)sender {
     
-    self.myQuote.text = @" HEY WHAT'S UP!!";
+    int array_tot = [self.myQuotes count];
+    
+    int array_index = (arc4random() % array_tot);
+    
+    NSString *selected_quote = self.myQuotes[array_index];
+    
+    self.myQuote.text = [NSString stringWithFormat:@"Quote selected: %@", selected_quote];
+    
+    
+    
+    
+    //self.myQuote.text = @" HEY WHAT'S UP!!";
 }
 @end
