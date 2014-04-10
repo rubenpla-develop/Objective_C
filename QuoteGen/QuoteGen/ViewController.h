@@ -19,4 +19,7 @@
 
 - (IBAction)Button:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UISegmentedControl *quote_type;
+
+
 @end

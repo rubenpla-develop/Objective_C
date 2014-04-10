@@ -21,6 +21,8 @@
 		45888DF718F4739200C7DC8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45888DD918F4739200C7DC8C /* UIKit.framework */; };
 		45888DFF18F4739200C7DC8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45888DFD18F4739200C7DC8C /* InfoPlist.strings */; };
 		45888E0118F4739200C7DC8C /* QuoteGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45888E0018F4739200C7DC8C /* QuoteGenTests.m */; };
+		45F6417F18F58FE7004A763A /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45F6417E18F58FE7004A763A /* quotes.plist */; };
+		45F6418118F5CDB3004A763A /* Wood_Pseudotsuga_taxifolia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6418018F5CDB3004A763A /* Wood_Pseudotsuga_taxifolia.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		45888DFC18F4739200C7DC8C /* QuoteGenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuoteGenTests-Info.plist"; sourceTree = "<group>"; };
 		45888DFE18F4739200C7DC8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45888E0018F4739200C7DC8C /* QuoteGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteGenTests.m; sourceTree = "<group>"; };
+		45F6417E18F58FE7004A763A /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = quotes.plist; path = QuoteGen/quotes.plist; sourceTree = SOURCE_ROOT; };
+		45F6418018F5CDB3004A763A /* Wood_Pseudotsuga_taxifolia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood_Pseudotsuga_taxifolia.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		45888DDB18F4739200C7DC8C /* QuoteGen */ = {
 			isa = PBXGroup;
 			children = (
+				45F6417E18F58FE7004A763A /* quotes.plist */,
 				45888DE418F4739200C7DC8C /* AppDelegate.h */,
 				45888DE518F4739200C7DC8C /* AppDelegate.m */,
 				45888DE718F4739200C7DC8C /* Main.storyboard */,
@@ -126,6 +131,7 @@
 		45888DDC18F4739200C7DC8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45F6418018F5CDB3004A763A /* Wood_Pseudotsuga_taxifolia.jpg */,
 				45888DDD18F4739200C7DC8C /* QuoteGen-Info.plist */,
 				45888DDE18F4739200C7DC8C /* InfoPlist.strings */,
 				45888DE118F4739200C7DC8C /* main.m */,
@@ -228,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F6418118F5CDB3004A763A /* Wood_Pseudotsuga_taxifolia.jpg in Resources */,
 				45888DEE18F4739200C7DC8C /* Images.xcassets in Resources */,
 				45888DE018F4739200C7DC8C /* InfoPlist.strings in Resources */,
 				45888DE918F4739200C7DC8C /* Main.storyboard in Resources */,
+				45F6417F18F58FE7004A763A /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +466,7 @@
 				45888E0618F4739200C7DC8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45888E0718F4739200C7DC8C /* Build configuration list for PBXNativeTarget "QuoteGenTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +475,7 @@
 				45888E0918F4739200C7DC8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
