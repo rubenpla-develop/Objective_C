@@ -18,6 +18,8 @@
 @property (strong, readonly, nonatomic) NSString * ans1;
 @property (strong, readonly, nonatomic) NSString * ans2;
 @property (strong, readonly, nonatomic) NSString * ans3;
+@property (assign, nonatomic) NSInteger tipCount;
+@property (strong, nonatomic) NSString * tip;
 
 - (id)initWithQuiz: (NSString*)pListname;
 -(void) nextQuestion : (NSUInteger) idx;

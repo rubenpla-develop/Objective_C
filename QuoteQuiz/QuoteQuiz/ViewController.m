@@ -50,7 +50,13 @@
     // Dispose of any resources that can be recreated.
 }
 - (void)quizDone{
-    
+    if (self.quiz.correctCount){
+        self.statusLabel.text = [NSString stringWithFormat:@"QUIZ done - Score %d%%", self.quiz.quizCount/self.quiz.quizCount];
+    }else{
+        self.statusLabel.text = @"Quiz done - Score 0%";
+    }
+    [self.startButton setTitle:@"Try Again" forState:UIControlStateNormal];
+    self.quizIndex = 999;
 }
 
 - (void)nextQuizItem{

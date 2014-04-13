@@ -16,7 +16,8 @@
 - (IBAction)ans1Action:(id)sender;
 - (IBAction)ans2Action:(id)sender;
 - (IBAction)ans3Action:(id)sender;
--(IBAction)startAgain:(id)sender;
+- (IBAction)startAgain:(id)sender;
+
 
 
 @end
