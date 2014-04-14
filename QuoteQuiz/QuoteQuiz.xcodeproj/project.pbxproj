@@ -23,6 +23,7 @@
 		4585EC6B18F7622C009CEDCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4585EC6918F7622C009CEDCA /* InfoPlist.strings */; };
 		4585EC6D18F7622C009CEDCA /* QuoteQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585EC6C18F7622C009CEDCA /* QuoteQuizTests.m */; };
 		4585EC7818F768D2009CEDCA /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 4585EC7718F768D2009CEDCA /* Quiz.m */; };
+		45F8863518FC24210046670F /* QuizTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F8863418FC24210046670F /* QuizTipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4585EC6C18F7622C009CEDCA /* QuoteQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteQuizTests.m; sourceTree = "<group>"; };
 		4585EC7618F768D2009CEDCA /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
 		4585EC7718F768D2009CEDCA /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		45F8863318FC24210046670F /* QuizTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTipViewController.h; sourceTree = "<group>"; };
+		45F8863418FC24210046670F /* QuizTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				4585EC5318F7622B009CEDCA /* Main.storyboard */,
 				4585EC7618F768D2009CEDCA /* Quiz.h */,
 				4585EC7718F768D2009CEDCA /* Quiz.m */,
+				45F8863318FC24210046670F /* QuizTipViewController.h */,
+				45F8863418FC24210046670F /* QuizTipViewController.m */,
 				4585EC5618F7622C009CEDCA /* ViewController.h */,
 				4585EC5718F7622C009CEDCA /* ViewController.m */,
 				4585EC5918F7622C009CEDCA /* Images.xcassets */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4585EC5818F7622C009CEDCA /* ViewController.m in Sources */,
+				45F8863518FC24210046670F /* QuizTipViewController.m in Sources */,
 				4585EC5218F7622B009CEDCA /* AppDelegate.m in Sources */,
 				4585EC7818F768D2009CEDCA /* Quiz.m in Sources */,
 				4585EC4E18F7622B009CEDCA /* main.m in Sources */,

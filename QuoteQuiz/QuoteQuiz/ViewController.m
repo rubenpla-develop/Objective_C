@@ -18,12 +18,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *answer1Button;
 @property (weak, nonatomic) IBOutlet UIButton *answer2Button;
 @property (weak, nonatomic) IBOutlet UIButton *answer3Button;
-@property (weak, nonatomic) UIImageView * movie1;
-@property (weak, nonatomic) UIImageView * movie2;
-@property (weak, nonatomic) UIImageView * movie3;
-@property (weak, nonatomic) UILabel * statusLabel;
-@property (weak, nonatomic) UIButton * startButton;
-@property (weak, nonatomic) UIButton * infoButton;
+@property (weak, nonatomic) IBOutlet UIImageView * movie1;
+@property (weak, nonatomic) IBOutlet UIImageView * movie2;
+@property (weak, nonatomic) IBOutlet UIImageView * movie3;
+@property (weak, nonatomic) IBOutlet UILabel * statusLabel;
+@property (weak, nonatomic) IBOutlet UIButton * startButton;
+@property (weak, nonatomic) IBOutlet UIButton * infoButton;
 @property (weak, nonatomic) IBOutlet UILabel *labelCorrect;
 @property (weak, nonatomic) IBOutlet UILabel *labelIncorrect;
 
@@ -89,6 +89,12 @@
     self.answer1Button.hidden = NO;
     self.answer2Button.hidden = NO;
     self.answer3Button.hidden = NO;
+    
+    if (self.quiz.tipCount <3){
+        self.infoButton.hidden = NO;
+    }else{
+        self.infoButton.hidden = YES;
+    }
 }
 
 - (void) checkAnswer{
@@ -138,6 +144,27 @@
     
     self.answer = 3;
     [self checkAnswer];
+}
+
+- (IBAction)startAgain:(id)sender{
+    [self nextQuizItem];
+    self.labelCorrect.hidden = YES;
+    self.labelIncorrect.hidden = YES;
+}
+
+- (void)quizTipDidFinish:(QuizTipViewController *)controller{
+    
+    [self dismissViewControllerAnimated:YES completion:^{}];
+    
+}
+
+- (void)prepareforSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if ([segue.identifier isEqualToString:@"TipModal"]){
+        QuizTipViewController * detailViewController = (QuizTipViewController *)segue.destinationViewController;
+        detailViewController.delegate = self;
+        detailViewController.tipText = self.quiz.tip;
+    }
 }
 @end
 

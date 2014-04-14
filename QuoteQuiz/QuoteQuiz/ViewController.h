@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuizTipViewController.h"
 @class Quiz;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <QuizTipViewControllerDelegate>
 
 @property (strong, nonatomic) Quiz * quiz;
 @property (assign, nonatomic) NSInteger quizIndex;
+
 - (IBAction)ans1Action:(id)sender;
 - (IBAction)ans2Action:(id)sender;
 - (IBAction)ans3Action:(id)sender;
